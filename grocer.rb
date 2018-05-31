@@ -15,7 +15,9 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
-  
+  cart.each {|item attributes|
+    
+  }
  
     
   
