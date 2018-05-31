@@ -26,8 +26,8 @@ end
 
 def apply_clearance(cart)
   cart.map {|item, attributes|
-      print item
-      print attributes
+      print "item: #{item}"
+      print "attributes #{attributes}"
   }
   cart
 end
