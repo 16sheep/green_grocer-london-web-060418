@@ -4,7 +4,7 @@ def consolidate_cart(cart)
   cart.each { |item|
     item.each {|product, attributes|
       if counted_hash.key?(product)
-        value = counted_hash[attributes][:count] + 1
+        value = counted_hash[attributes][:count]
         counted_hash[attributes][:count] = value
         print "value is #{value}"
       else
