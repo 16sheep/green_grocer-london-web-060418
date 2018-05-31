@@ -30,7 +30,6 @@ def apply_clearance(cart)
          item[:price] *= 0.2
       end
   }
-  cart
 end
 
 def checkout(cart, coupons)
