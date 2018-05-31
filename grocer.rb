@@ -26,7 +26,7 @@ end
 
 def apply_clearance(cart)
   cart.map {|item, attributes|
-      if item[attributes][:clearance] == TRUE
+      if item[attributes][:clearance] == true
          item[attributes][:price] *= 0.2
       end
   }
