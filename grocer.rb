@@ -6,6 +6,7 @@ def consolidate_cart(cart)
       if counted_hash.key?(item)
         value = attributes[:count] + 1
         attributes[:count] = value
+        print "value is #{value}"
       else
         counted_hash[product] = attributes
         attributes[:count] = 1
